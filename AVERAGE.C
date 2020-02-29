@@ -7,7 +7,8 @@
 // Declaring the main function.
 void main() {
 	// Declaring the variables.
-	float num1,num2,num3,avg;
+	int num1,num2,num3;
+        float avg;
 
 	// Clearing the screen.
 	clrscr();
@@ -15,11 +16,11 @@ void main() {
 	// Taking input from user.
 	printf("Please Enter the numbers.\n");
 	printf("num1: ");
-	scanf("%f",&num1);
+	scanf("%d",&num1);
 	printf("num2: ");
-	scanf("%f",&num2);
+	scanf("%d",&num2);
 	printf("num3: ");
-	scanf("%f",&num3);
+	scanf("%d",&num3);
 
 	// Taking average of the numbers.
 	avg = (num1 + num2 + num3) / 3;
