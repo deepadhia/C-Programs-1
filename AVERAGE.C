@@ -25,6 +25,6 @@ void main() {
 	avg = (num1 + num2 + num3) / 3;
 
 	// Printing the value of average.
-	printf("Average of bove numbers is %0.2f",avg);
+	printf("Average of the above numbers is %0.2f",avg);
 	getch();
 }
